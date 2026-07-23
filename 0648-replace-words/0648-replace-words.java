@@ -7,7 +7,7 @@ class Solution {
         for(String a: arr){
             String replace = a;
 
-            for(int j=0;j<= replace.length();j++){
+            for(int j=1;j<= replace.length();j++){
                 String newword = replace.substring(0,j);
                 if(set.contains(newword)){
                     replace = newword;
